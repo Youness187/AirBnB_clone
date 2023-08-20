@@ -83,4 +83,5 @@
 
 .filters div:hover .popover {
     display: block;
+    z-index: 100;
 }
