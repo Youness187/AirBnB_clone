@@ -1,13 +1,22 @@
 /* Global Style */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
-    color: #484848;
-    font-size: 14px;
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #484848;
+  font-size: 14px;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 .container {
-    max-width: 1000px;
-    margin: 30px auto;
+  max-width: 1000px;
+  margin: 30px auto;
 }
